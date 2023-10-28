@@ -69,7 +69,7 @@ model.add(Dense(64, input_shape=(len(train_x[0]),), activation ='relu'))
 model.add(Dropout(.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
-optimizer = Adam(lr=0.001)
+optimizer = Adam(learning_rate=0.001)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5,verbose=0)
 model.save('chatbot_model.h5', hist)
