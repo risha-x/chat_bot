@@ -1,0 +1,63 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hi", "what's up", "howdy", "heyo", "what's good", "sup"],
+      "responses": ["Hey!", "Hi!", "Hello!", "Howdy!", "What's up!"]
+    },
+    
+    {
+      "tag": "horror",
+      "patterns": ["horror movies", "scary films", "thrillers"],
+      "responses": ["I recommend watching 'The Conjuring'.", "You should check out 'Get Out'.", "I suggest watching 'It'.", "Have you seen 'A Quiet Place'?", "'Hereditary' is a popular horror movie."]
+    },
+    
+    {
+      "tag": "action",
+      "patterns": ["action movies", "adventure films", "fight scenes"],
+      "responses": ["You'll enjoy 'Mad Max: Fury Road'.", "I recommend 'Die Hard'.", "Check out 'John Wick'.", "'The Dark Knight' is a must-watch.", "Have you seen 'Mission: Impossible - Fallout'?"]
+    },
+    
+    {
+      "tag": "romance",
+      "patterns": ["romantic movies", "love stories", "chick flicks"],
+      "responses": ["Watch 'The Notebook'.", "Consider 'La La Land'.", "You might like 'Titanic'.", "Have you seen 'The Fault in Our Stars'?", "'Crazy Rich Asians' is a popular romance movie."]
+    },
+    
+    {
+      "tag": "comedy",
+      "patterns": ["comedy movies", "funny films", "humorous flicks"],
+      "responses": ["'Anchorman' is a hilarious choice.", "'Superbad' is a classic comedy.", "Enjoy 'Bridesmaids'.", "Have you seen 'Step Brothers'?", "'Dumb and Dumber' is a popular comedy movie."]
+    },
+    
+    {
+      "tag": "scifi",
+      "patterns": ["sci-fi movies", "science fiction films", "space adventures"],
+      "responses": ["I recommend 'Blade Runner 2049'.", "'The Matrix' is a must-watch.", "Consider 'Inception' for mind-bending sci-fi.", "'Interstellar' is a popular sci-fi movie.", "Have you seen 'Ex Machina'?"]
+    },
+    
+    {
+      "tag": "superhero",
+      "patterns": ["superhero movies", "hero films", "comic book adaptations"],
+      "responses": ["I recommend 'The Dark Knight'.", "'Avengers: Endgame' is a must-watch.", "Consider 'Spider-Man: Into the Spider-        Verse' for a unique superhero experience.", "'Wonder Woman' is a popular superhero movie.", "Have you seen 'Iron Man'?"]
+    },
+    
+    {
+      "tag": "crime",
+      "patterns": ["crime movies", "gangster films", "detective movies"],
+      "responses": ["I recommend 'The Godfather'.", "'Pulp Fiction' is a classic crime movie.", "Consider watching 'The Departed' for a thrilling experience.", "'Goodfellas' is a popular gangster film.", "Have you seen 'Chinatown'?"]
+    },
+    
+    {
+      "tag": "animated",
+      "patterns": ["animated movies", "cartoon films", "animated features"],
+      "responses": ["I recommend 'Toy Story'.", "'Finding Nemo' is a classic animated movie.", "Consider watching 'Frozen' for a magical experience.", "'The Lion King' is a beloved animated film.", "Have you seen 'Howl's Moving Castle'?"]
+    },
+    
+    {
+      "tag": "natural_disaster_movies",
+      "patterns": ["natural disaster movies", "disaster films", "movies about disasters"],
+      "responses": ["You should watch 'The Day After Tomorrow'.", "'San Andreas' is a thrilling natural disaster movie.", "Consider watching 'Twister' for a thrilling tornado movie.", "'Deep Impact' is a great disaster movie.", "Have you seen '2012'?"]
+    }
+  ]
+}
